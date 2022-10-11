@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* transition: all 0.5s ease-in; */
+}
+
+.green-bg {
+  clip-path: polygon(0 0, 78% 0, 100% 100%, 0 100%);
+  padding-right: 10%;
+}
+#notify:checked ~ label {
+  background-color: #81cef0 !important;
+}
+#notify1:checked ~ label {
+  background-color: #81cef0 !important;
+}
+
+p {
+  transition: all 0.1s ease !important;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+.matchCard {
+  background-image: url(/src/assets/premierLeague.png);
+  background-position: bottom center;
+  background-size: 32%;
+  background-repeat: no-repeat;
+}
